@@ -1,0 +1,52 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "what's up"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "ty"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "rock",
+         "patterns": ["Can you recommend some rock music", "Let's rock", "Rock music", "rock", "rock-n-roll" ],
+         "responses": ["I can recommend Metallica, RHCP"]
+        },
+        {"tag": "rap",
+         "patterns": ["Can you recommend me rap music", "Rap", "some rap music", "I want some rap", "What about rap?" ],
+         "responses": ["Eminem, 50 cent"]
+        },
+        {"tag": "pop",
+         "patterns": ["Pop music", "Pop", "Recommend something pop music", "want listen to pop music"],
+         "responses": ["The Weeknd, iaan dior"]
+        },
+        {"tag": "Metallica",
+         "patterns": ["Metallica", "What songs does Metallica has?", "I want to listen to Metallica", "What about Metallica?"],
+         "responses": ["Fade to Black, Orion, Creeping Death, For Whom the Bell Tolls, Blackened, Welcome Home (Sanitarium), Battery, Seek and Destroy"]
+        },
+        {"tag": "RHCP",
+         "patterns": ["RHCP", "Red Hot Chili Peppers", "What songs does RHCP has?", "I want to listen to RHCP", "What about Red Hot Chili Peppers?", "What about RHCP?"],
+         "responses": ["Under the Bridge, Californication, Snow, Can't Stop, Otherside, Scar Tissue, Dani California, Give It Away"]
+        },
+        {"tag": "Eminem",
+         "patterns": ["Eminem", "What songs does Eminem has?", "I want to listen to Eminem's music", "What about Eminem?"],
+         "responses": ["The Real Slim Shady, Stan, Lose Yourself, White America, Guilty Conscience, Square Dance, Love the way you lie, Not Afraid"]
+        },
+        {"tag": "50 cent",
+         "patterns": ["Fifty cent", "50 cent", "What songs does 50 cent has?", "I want to listen to 50 cent's music", "What about 50 cent?"],
+         "responses": ["In da Club, Many Men (Wish Death), Candy Shop, P.I.M.P, Wanksta, Patiently Waiting, 21 Questions, Window Shopper"]
+        },
+        {"tag": "Weeknd",
+         "patterns": ["Weeknd", "The weeknd", "What songs does The Weeknd has?", "I want to listen to Weeknd's music", "What about The Weeknd"],
+         "responses": ["Blinding Lights, High For This, Can't Feel My Face, Nothing Without You, The Hills, In The Night, Starboy, Call Out My Name"]
+        },
+        {"tag": "iaan dior",
+         "patterns": ["Iaan dior", "What songs does iaan dior has?", "I want to listen to iaan's music", "What about iaan dior"],
+         "responses": ["Mood, shots in the dark, emotions, Higher, gone girl, good day, Sick and Tired, First Time"]
+        }
+   ]
+}
